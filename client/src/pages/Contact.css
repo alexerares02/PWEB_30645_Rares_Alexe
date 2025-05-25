@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    overflow-x: hidden;
+  }
+  
+
+  
+  .hero {
+    margin-top: 80px;
+    padding: 80px 20px;
+    color: white;
+  }
+
+  .hero h1 {
+    color: white;
+  }
+  
+  .contact-section {
+    background: white;
+    padding: 50px 20px;
+    margin: 40px auto;
+    border-radius: 10px;
+    width: 50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-section h2 {
+    color: black;
+    margin-bottom: 20px;
+  }
+
+
+.contact-section p {
+    color: black; 
+  }
+

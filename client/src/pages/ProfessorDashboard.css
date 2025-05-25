@@ -1,0 +1,163 @@
+/* Fundal global pe întreaga pagină */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    background-attachment: fixed;
+    overflow-x: hidden;
+  }
+  
+
+  
+  /* Conținut Dashboard */
+  .dashboard {
+    padding-top: 120px;
+    padding-bottom: 100px;
+    min-height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+    color: white;
+    text-align: center;
+  }
+  
+  /* Formular curs */
+  .course-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+  }
+  
+  .course-form input,
+.course-form textarea {
+  width: 320px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #6a11cb;
+  border-radius: 5px;
+  outline: none;
+  font-size: 1rem;
+  background: #111;       
+  color: white;          
+}
+
+.course-form input::placeholder,
+.course-form textarea::placeholder {
+  color: #ccc;           
+}
+
+.course-form textarea {
+  height: 100px;
+  resize: none;
+}
+
+.course-form button {
+  width: 320px;
+  padding: 12px;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: white;
+  font-weight: bold;
+  border: none;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.course-form button:hover {
+  background: #2575fc;
+}
+
+  /* Lista cursuri */
+  .course-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+  }
+  
+  .course-card {
+    background: white;
+    color: #333;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    text-align: left;
+    font-size: 1rem;
+  }
+  
+  /* Calendar */
+  .calendar-section {
+    background: white;
+    color: black;
+    padding: 40px;
+    border-radius: 10px;
+    width: 95%;
+    max-width: 1200px;
+    margin: 60px auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    font-size: 1rem;
+  }
+  
+  /* Grafic chart.js */
+  .stats-section {
+    background: white;
+    color: black;
+    padding: 40px;
+    border-radius: 10px;
+    width: 95%;
+    max-width: 1200px;
+    margin: 60px auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  }
+  /* Inputuri în modul de editare din carduri */
+.course-card input,
+.course-card textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 0.95rem;
+  background-color: #111;
+  color: white;
+}
+
+.course-card input::placeholder,
+.course-card textarea::placeholder {
+  color: #aaa;
+}
+
+.course-card textarea {
+  height: 80px;
+  resize: vertical;
+}
+
+/* Butoane din carduri */
+.course-card button {
+  padding: 8px 12px;
+  margin-right: 8px;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+  transition: background 0.3s ease;
+}
+
+.course-card button:hover {
+  opacity: 0.9;
+}
+
+.course-card button:nth-of-type(1) {
+  background-color: #2575fc; /* Salvează sau Editează */
+}
+
+.course-card button:nth-of-type(2) {
+  background-color: #d11a2a; /* Șterge sau Anulează */
+}
